@@ -1,4 +1,4 @@
-![Blue-eyes](lib/blue-eyes/generators/app/templates/public/images/blue-eyes-small.png)
+![blue-eyes](lib/blue-eyes/generators/app/templates/public/images/blue-eyes-small.png)
 
 Text below was original to corneal and needs to be updated.
 ## Why this exists
@@ -53,7 +53,7 @@ Directory structure:
 
 ## Commands
 ```
-blue-eyes -v              # Show Blue-eyes version number
+blue-eyes -v              # Show blue-eyes version number
 blue-eyes help [COMMAND]  # Describe available commands or one specific command
 blue-eyes new APP-NAME    # Creates a new Sinatra application
 blue-eyes model NAME      # Generate a model
@@ -62,13 +62,13 @@ blue-eyes scaffold NAME   # Generate a model with its associated views and contr
 ```
 The controller generator also have an optional views flag `--no-views` to create controllers without views.
 
-## Using Blue-eyes
+## Using blue-eyes
 
 To generate your app:
 
     blue-eyes new APP-NAME
 
-After Blue-eyes is done generating your app, run `bundle install` from your app's directory:
+After blue-eyes is done generating your app, run `bundle install` from your app's directory:
 
     cd APP-NAME
     bundle install

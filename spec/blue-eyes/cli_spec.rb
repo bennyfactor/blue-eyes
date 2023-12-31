@@ -2,8 +2,8 @@ require 'fakefs'
 require_relative "../spec_helper"
 require_relative "../../lib/blue-eyes"
 
-describe Blue-eyes::VERSION do
-  subject { Blue-eyes::Generators::AppGenerator }
+describe BlueEyes::VERSION do
+  subject { BlueEyes::Generators::AppGenerator }
 
   describe "source_root" do
     it "should return with a full path" do

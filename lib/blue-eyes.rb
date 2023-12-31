@@ -6,6 +6,6 @@ require "blue-eyes/generators/controller/controller_generator"
 require "blue-eyes/version"
 require "blue-eyes/cli"
 
-module Blue-eyes
+module BlueEyes
 
 end

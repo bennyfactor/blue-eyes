@@ -3,4 +3,4 @@ $:.unshift(File.expand_path(File.join(File.dirname(__FILE__), "..", "lib")))
 
 require "blue-eyes"
 
-Blue-eyes::CLI.start
+BlueEyes::CLI.start

@@ -1,8 +1,8 @@
 require_relative "../spec_helper"
 require_relative "../../lib/blue-eyes/version"
 
-describe Blue-eyes::VERSION do
-  subject { Blue-eyes::VERSION }
+describe BlueEyes::VERSION do
+  subject { BlueEyes::VERSION }
 
   let(:major)  { subject::MAJOR  }
   let(:minor)  { subject::MINOR  }

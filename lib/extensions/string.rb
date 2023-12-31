@@ -1,4 +1,4 @@
-module Blue-eyes
+module BlueEyes
   module Extensions
     module String
       def camel_case
@@ -34,4 +34,4 @@ module Blue-eyes
   end
 end
 
-String.send(:include, Blue-eyes::Extensions::String)
+String.send(:include, BlueEyes::Extensions::String)

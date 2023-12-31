@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require "thor/group"
 
-module Blue-eyes
+module BlueEyes
   module Generators
     class AppGenerator < Thor::Group
       include Thor::Actions

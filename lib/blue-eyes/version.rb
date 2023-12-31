@@ -1,4 +1,4 @@
-module Blue-eyes
+module BlueEyes
   module VERSION
     MAJOR = 1
     MINOR = 3

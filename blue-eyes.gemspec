@@ -5,9 +5,9 @@ require 'blue-eyes/version'
 
 Gem::Specification.new do |spec|
   spec.name        = "blue-eyes"
-  spec.version     = Blue-eyes::VERSION::STRING
+  spec.version     = BlueEyes::VERSION::STRING
   spec.summary     = "A Sinatra app generator."
-  spec.description = "Blue-eyes is a Sinatra app generator with Rails-like simplicity."
+  spec.description = "BlueEyes is a Sinatra app generator with Rails-like simplicity."
   spec.email       = "the@brianemory.com"
   spec.homepage    = "http://thebrianemory.github.io/blue-eyes/"
   spec.authors     = ["Brian Emory"]
