@@ -1,7 +1,7 @@
 require "thor/group"
 require 'active_support/inflector'
 
-module Corneal
+module Blue-eyes
   module Generators
     class ScaffoldGenerator < Thor::Group
       include Thor::Actions

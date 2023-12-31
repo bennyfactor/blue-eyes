@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require "thor/group"
 
-module Corneal
+module Blue-eyes
   module Generators
     class AppGenerator < Thor::Group
       include Thor::Actions
@@ -15,7 +15,7 @@ module Corneal
       class_option :bundle, :type => :boolean, :desc => "Run bundle after generating the app"
       class_option :git, :type => :boolean, :desc => "Initialize a Git repository"
 
-      # Creates instance variables from options passed to corneal.
+      # Creates instance variables from options passed to blue-eyes.
       def setup
         @app_path = name.directory_name
         @name     = name.file_name

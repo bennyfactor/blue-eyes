@@ -1,4 +1,4 @@
-module Corneal
+module Blue-eyes
   module VERSION
     MAJOR = 1
     MINOR = 3

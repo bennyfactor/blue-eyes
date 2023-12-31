@@ -1,4 +1,4 @@
-![Corneal](http://thebrianemory.github.io/corneal/images/corneal-small.png)
+![Blue-eyes](http://thebrianemory.github.io/blue-eyes/images/blue-eyes-small.png)
 
 ## Why this exists
 
@@ -10,7 +10,7 @@ When I was creating my first major Sinatra project, [Cook This Way](https://gith
 
 I also wanted to create a gem for future Learn students so they could easily get started building their projects. Although built with them in mind, this can get you off and running with any Sinatra app.
 
-Install the gem, run `corneal new APP-NAME`, run `bundle install`, and you're all set! You can start up your server with `shotgun` and verify everything is working. It is as simple as that.
+Install the gem, run `blue-eyes new APP-NAME`, run `bundle install`, and you're all set! You can start up your server with `shotgun` and verify everything is working. It is as simple as that.
 
 It uses a file structure similar to what you would see with Rails.
 
@@ -48,26 +48,26 @@ Directory structure:
 
 ## Installation
 
-    gem install corneal
+    gem install blue-eyes
 
 ## Commands
 ```
-corneal -v              # Show Corneal version number
-corneal help [COMMAND]  # Describe available commands or one specific command
-corneal new APP-NAME    # Creates a new Sinatra application
-corneal model NAME      # Generate a model
-corneal controller NAME # Generate a controller
-corneal scaffold NAME   # Generate a model with its associated views and controllers
+blue-eyes -v              # Show Blue-eyes version number
+blue-eyes help [COMMAND]  # Describe available commands or one specific command
+blue-eyes new APP-NAME    # Creates a new Sinatra application
+blue-eyes model NAME      # Generate a model
+blue-eyes controller NAME # Generate a controller
+blue-eyes scaffold NAME   # Generate a model with its associated views and controllers
 ```
 The controller generator also have an optional views flag `--no-views` to create controllers without views.
 
-## Using Corneal
+## Using Blue-eyes
 
 To generate your app:
 
-    corneal new APP-NAME
+    blue-eyes new APP-NAME
 
-After Corneal is done generating your app, run `bundle install` from your app's directory:
+After Blue-eyes is done generating your app, run `bundle install` from your app's directory:
 
     cd APP-NAME
     bundle install
@@ -78,11 +78,11 @@ You can then start your server with `shotgun`:
 
 You can generate a model and migration file:
 
-    corneal model NAME
+    blue-eyes model NAME
 
 You can also generate an entire MVC structure complete with a migration file:
 
-    corneal scaffold NAME
+    blue-eyes scaffold NAME
 
 The resulting structure will look like this:
 
@@ -105,7 +105,7 @@ The resulting structure will look like this:
 
 You can also add your model attributes when you generate the scaffold structure and have them added to your migration file:
 
-    corneal [model/scaffold] NAME name:string age:integer
+    blue-eyes [model/scaffold] NAME name:string age:integer
 
 ```
 class CreateUsers < ActiveRecord::Migration
@@ -128,7 +128,7 @@ You can also verify it is working by running `rspec` to see the passing test:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/thebrianemory/corneal This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/thebrianemory/blue-eyes This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
