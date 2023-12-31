@@ -1,5 +1,6 @@
-![Blue-eyes](http://thebrianemory.github.io/blue-eyes/images/blue-eyes-small.png)
+![Blue-eyes](lib/blue-eyes/generators/app/templates/public/images/blue-eyes-small.png)
 
+Text below was original to corneal and needs to be updated.
 ## Why this exists
 
 When I was creating my first major Sinatra project, [Cook This Way](https://github.com/thebrianemory/cook-this-way), while doing [Learn Verified](https://learn.co/with/thebrianemory), I was looking for a way to build a Sinatra skeleton similar to running
