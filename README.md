@@ -1,15 +1,13 @@
 ![blue-eyes](lib/blue-eyes/generators/app/templates/public/images/blue-eyes-small.png)
 
-Text below was original to corneal and needs to be updated.
 ## Why this exists
-
-When I was creating my first major Sinatra project, [Cook This Way](https://github.com/thebrianemory/cook-this-way), while doing [Learn Verified](https://learn.co/with/thebrianemory), I was looking for a way to build a Sinatra skeleton similar to running
+I was looking for a way to build a Sinatra skeleton similar to running
 
     rails new APP-NAME
 
-[Hazel](https://github.com/c7/hazel) was the closest thing I could find and this gem is based largely off of it. While it did provide a pretty good initial setup, I still had to tweak some things. The views were sitting in the root directory while I wanted them to reside in an app folder along with my models and controllers. There was also no environment.rb in the config folder as I had become accustom to having.
+[Corneal](http://thebrianemory.github.io/corneal/) was the closest thing I could find and this gem is based largely off of it. It basically does everything equivalent for sinatra that running `rails new` would do, except, it doesn't seem to be maintained anymore, and thus no longer compatible with modern ruby. Thus, I have forked and renamed it, hoping to keep it up-to-date.
 
-I also wanted to create a gem for future Learn students so they could easily get started building their projects. Although built with them in mind, this can get you off and running with any Sinatra app.
+## How to start
 
 Install the gem, run `blue-eyes new APP-NAME`, run `bundle install`, and you're all set! You can start up your server with `shotgun` and verify everything is working. It is as simple as that.
 
@@ -73,9 +71,9 @@ After blue-eyes is done generating your app, run `bundle install` from your app'
     cd APP-NAME
     bundle install
 
-You can then start your server with `shotgun`:
+You can then start your server with `rackup`:
 
-    shotgun
+    bundle exec rackup
 
 You can generate a model and migration file:
 
@@ -121,7 +119,7 @@ class CreateUsers < ActiveRecord::Migration
 end
 ```
 
-Visit [http://localhost:9393/](http://localhost:9393/) to verify your app is running.
+Visit [http://localhost:9392/](http://localhost:9392/) to verify your app is running.
 
 You can also verify it is working by running `rspec` to see the passing test:
 
@@ -129,11 +127,12 @@ You can also verify it is working by running `rspec` to see the passing test:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/thebrianemory/blue-eyes This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bennyfactor/blue-eyes .Feel free to contribute, but please consider that any contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct. In summary, be excellent to each other, and party on dudes.
 
 ## License
 
     Copyright (c) 2016 Brian Emory
+    Copyright (c) 2024 Ben Lamb
 
     Permission is hereby granted, free of charge, to any person obtaining
     a copy of this software and associated documentation files (the
