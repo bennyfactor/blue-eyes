@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name        = "blue-eyes"
   spec.version     = BlueEyes::VERSION::STRING
   spec.summary     = "A Sinatra app generator."
-  spec.description = "BlueEyes is a Sinatra app generator with Rails-like simplicity."
-  spec.email       = "the@brianemory.com"
-  spec.homepage    = "http://thebrianemory.github.io/blue-eyes/"
-  spec.authors     = ["Brian Emory"]
+  spec.description = "blue-eyes is a Sinatra app generator with Rails-like simplicity."
+  spec.email       = "bennyfactor@iaatb.net"
+  spec.homepage    = "http://github.com/bennyfactor/blue-eyes/"
+  spec.authors     = ["Brian Emory, Ben Lamb"]
   spec.licenses    = "MIT"
 
   spec.executables = ['blue-eyes']
@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
     Dir.glob("spec/**/*") +
     %w(Gemfile Gemfile.lock LICENSE README.md Rakefile)
 
-  spec.add_runtime_dependency('thor', '~> 0.18')
-  spec.add_runtime_dependency('activesupport', '~> 5.0')
-  spec.add_development_dependency('bundler', '~> 1.5', '>= 1.5.1')
+  spec.add_runtime_dependency('thor', '~> 1.2')
+  spec.add_runtime_dependency('activesupport', '~> 7.1')
+  spec.add_development_dependency('bundler', '~> 2.5', '>= 2.5.3')
   spec.add_development_dependency('minitest', '~> 5.2')
 end
